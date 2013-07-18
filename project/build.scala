@@ -8,7 +8,7 @@ import AssemblyKeys._
  */
 object ValidatorsBuild extends Build {
 
-  val jettyVersion = "8.1.7.v20120910"
+  val jettyVersion = "8.1.11.v20130520"
   
   lazy val validators = Project(
     id = "validator",
