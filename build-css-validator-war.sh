@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # if you change this, don't forget to change the corresponding date in the Scala code!
-date="2012-09-20"
+date="2013-05-20"
 
 ## this script probably runs only on a Linux-based machine
 ## you need CVS, Java and ant to be already installed
