@@ -8,7 +8,7 @@ import AssemblyKeys._
  */
 object ValidatorsBuild extends Build {
 
-  val jettyVersion = "8.1.11.v20130520"
+  val jettyVersion = "8.1.13.v20130916"
   
   lazy val validators = Project(
     id = "validator",
@@ -17,7 +17,7 @@ object ValidatorsBuild extends Build {
     settings = Defaults.defaultSettings ++ assemblySettings ++ Seq(
       organization := "org.w3",
       version := "1.0-SNAPSHOT",
-      scalaVersion := "2.10.0",
+      scalaVersion := "2.10.3",
 
       mainClass in assembly := Some("org.w3.validator.Validators"),
       jarName in assembly := "validators.jar",
